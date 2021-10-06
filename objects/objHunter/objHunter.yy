@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sprAsteroidSm",
-    "path": "sprites/sprAsteroidSm/sprAsteroidSm.yy",
+    "name": "sprEnemyHunter",
+    "path": "sprites/sprEnemyHunter/sprEnemyHunter.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "objFactionNeutral",
-    "path": "objects/objFactionNeutral/objFactionNeutral.yy",
+    "name": "objParentEnemy",
+    "path": "objects/objParentEnemy/objParentEnemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,18 +24,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Neutral",
-    "path": "folders/Objects/Neutral.yy",
+    "name": "Enemy",
+    "path": "folders/Objects/Enemy.yy",
   },
   "resourceVersion": "1.0",
-  "name": "objAsteroid",
+  "name": "objHunter",
   "tags": [],
   "resourceType": "GMObject",
 }
